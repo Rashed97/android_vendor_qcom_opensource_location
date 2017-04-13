@@ -1,4 +1,4 @@
-ifneq ($(BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE),)
+#ifneq ($(BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE),)
 
 LOCAL_PATH := $(call my-dir)
 
@@ -44,4 +44,4 @@ $(shell ln -sf /firmware/image/gss.b15 $(TARGET_OUT_ETC)/firmware/gss.b15)
 $(shell ln -sf /firmware/image/gss.mdt $(TARGET_OUT_ETC)/firmware/gss.mdt)
 endif
 
-endif#BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE
+#endif#BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE
